@@ -1,0 +1,490 @@
+2025-05-09T10:27:01.289989 | INFO | Firmware version checked
+2025-05-09T10:27:04.550451 | INFO | Reported actual TV state: off
+2025-05-09T10:27:04.594020 | INFO | Mode queried
+2025-05-09T10:27:09.064677 | INFO | Reported actual TV state: off
+2025-05-09T10:27:28.983124 | INFO | Comprehensive ping response sent
+2025-05-09T10:27:59.062091 | INFO | Reported actual TV state: off
+2025-05-09T10:27:59.697394 | INFO | Mode queried
+2025-05-09T10:27:59.953774 | INFO | Comprehensive ping response sent
+2025-05-09T10:28:30.267728 | INFO | Comprehensive ping response sent
+2025-05-09T10:29:12.044980 | INFO | Reported actual TV state: off
+2025-05-09T10:29:12.256053 | INFO | Mode queried
+2025-05-09T10:29:12.656799 | INFO | Comprehensive ping response sent
+2025-05-09T10:29:43.034061 | INFO | Comprehensive ping response sent
+2025-05-09T10:30:10.690428 | INFO | Comprehensive ping response sent
+2025-05-09T10:30:12.419787 | INFO | Reported actual TV state: off
+2025-05-09T10:30:12.469133 | INFO | Mode queried
+2025-05-09T10:30:13.242037 | INFO | Comprehensive ping response sent
+2025-05-09T10:30:43.633022 | INFO | Comprehensive ping response sent
+2025-05-09T10:31:12.603454 | INFO | Reported actual TV state: off
+2025-05-09T10:31:12.659227 | INFO | Mode queried
+2025-05-09T10:31:13.729891 | INFO | Comprehensive ping response sent
+2025-05-09T10:31:23.800148 | INFO | Reported actual TV state: on
+2025-05-09T10:31:39.570964 | INFO | Schedule queried
+2025-05-09T10:31:44.058175 | INFO | Comprehensive ping response sent
+2025-05-09T10:32:09.691418 | INFO | Schedule updated
+2025-05-09T10:32:12.005089 | INFO | Schedule queried
+2025-05-09T10:32:12.793219 | INFO | Reported actual TV state: off
+2025-05-09T10:32:12.843411 | INFO | Mode queried
+2025-05-09T10:32:12.992464 | INFO | Schedule queried
+2025-05-09T10:32:14.536992 | INFO | Comprehensive ping response sent
+2025-05-09T10:32:44.633832 | INFO | Comprehensive ping response sent
+2025-05-09T10:33:13.273895 | INFO | Reported actual TV state: off
+2025-05-09T10:33:13.712762 | INFO | Mode queried
+2025-05-09T10:33:14.684886 | INFO | Comprehensive ping response sent
+2025-05-09T10:33:44.764165 | INFO | Comprehensive ping response sent
+2025-05-09T10:34:13.815510 | INFO | Reported actual TV state: off
+2025-05-09T10:34:14.183873 | INFO | Mode queried
+2025-05-09T10:34:14.825051 | INFO | Comprehensive ping response sent
+2025-05-09T10:34:45.116875 | INFO | Comprehensive ping response sent
+2025-05-09T10:35:14.498581 | INFO | Reported actual TV state: off
+2025-05-09T10:35:14.551082 | INFO | Mode queried
+2025-05-09T10:35:15.317453 | INFO | Comprehensive ping response sent
+2025-05-09T10:35:41.402674 | INFO | Firmware version checked
+2025-05-09T10:35:45.364693 | INFO | Comprehensive ping response sent
+2025-05-09T15:42:13.779316 | INFO | Schedule queried
+2025-05-09T15:42:38.387225 | INFO | Mode queried
+2025-05-09T15:42:49.097959 | INFO | Schedule queried
+2025-05-09T15:47:02.948437 | INFO | Mode queried
+2025-05-09T15:48:23.443753 | INFO | TV state queried
+2025-05-09T15:53:52.134705 | INFO | Full status requested
+2025-05-09T16:01:28.460534 | INFO | Reported actual TV state: off
+2025-05-09T16:01:28.552104 | INFO | Mode queried
+2025-05-09T16:01:28.700582 | INFO | Reported actual TV state: off
+2025-05-09T16:02:11.267944 | INFO | Mode queried
+2025-05-22T11:53:33.979309 | INFO | Reported actual TV state: off
+2025-05-22T11:53:34.094740 | INFO | Mode queried
+2025-05-22T11:53:34.320380 | INFO | Reported actual TV state: off
+2025-05-22T11:54:07.773424 | INFO | Mode queried
+2025-05-22T11:55:32.719383 | INFO | Mode queried
+2025-05-22T11:56:53.006613 | INFO | Mode queried
+2025-05-22T11:57:53.270139 | INFO | Mode queried
+2025-05-22T11:59:05.767244 | INFO | Reported actual TV state: off
+2025-05-22T11:59:05.856575 | INFO | Mode queried
+2025-05-22T11:59:05.891965 | INFO | Schedule queried
+2025-05-22T12:00:06.278827 | INFO | Mode queried
+2025-05-22T12:01:06.325273 | INFO | Mode queried
+2025-05-22T12:02:06.402572 | INFO | Mode queried
+2025-05-22T12:03:06.602126 | INFO | Mode queried
+2025-05-22T12:04:07.219693 | INFO | Reported actual TV state: off
+2025-05-22T12:04:07.312194 | INFO | Mode queried
+2025-05-22T12:04:07.348666 | INFO | Schedule queried
+2025-05-22T12:05:07.831850 | INFO | Mode queried
+2025-05-22T12:05:49.239372 | INFO | Mode queried
+2025-05-22T12:06:19.392277 | INFO | Mode queried
+2025-05-22T12:06:49.571989 | INFO | Mode queried
+2025-05-22T12:07:19.667431 | INFO | Mode queried
+2025-05-22T12:07:50.064090 | INFO | Mode queried
+2025-05-22T12:08:20.393133 | INFO | Mode queried
+2025-05-22T12:08:50.639336 | INFO | Mode queried
+2025-05-22T12:09:20.881718 | INFO | Reported actual TV state: off
+2025-05-22T12:09:21.066990 | INFO | Mode queried
+2025-05-22T12:09:21.371247 | INFO | Schedule queried
+2025-05-22T12:09:51.004036 | INFO | Mode queried
+2025-05-22T12:12:13.554105 | INFO | Mode queried
+2025-05-22T12:12:41.278161 | INFO | Mode queried
+2025-05-22T12:12:41.464320 | INFO | TV state queried
+2025-05-22T12:12:58.021637 | INFO | Mode queried
+2025-05-22T12:13:10.841411 | INFO | Schedule queried
+2025-05-22T12:13:11.745427 | INFO | Mode queried
+2025-05-22T12:13:26.948586 | INFO | Schedule updated
+2025-05-22T12:13:29.430833 | INFO | Schedule queried
+2025-05-22T12:13:41.902547 | INFO | Mode queried
+2025-05-22T12:13:52.707724 | INFO | Full status requested
+2025-05-22T12:14:23.741778 | INFO | Reported actual TV state: off
+2025-05-22T12:14:23.910574 | INFO | Mode queried
+2025-05-22T12:14:24.033079 | INFO | Schedule queried
+2025-05-22T13:18:28.320947 | INFO | Reported actual TV state: off
+2025-05-22T13:18:28.481899 | INFO | Mode queried
+2025-05-22T13:18:28.782217 | INFO | Reported actual TV state: off
+2025-05-22T13:18:39.277664 | INFO | Mode queried
+2025-05-22T13:18:39.572062 | INFO | Reported actual TV state: off
+2025-05-22T13:19:21.577448 | INFO | Mode queried
+2025-05-22T13:47:36.960379 | INFO | Reported actual TV state: off
+2025-05-22T13:47:37.445712 | INFO | Mode queried
+2025-05-22T13:47:37.678906 | INFO | Reported actual TV state: off
+2025-05-22T13:47:59.684996 | INFO | Mode queried
+2025-05-22T13:48:52.007427 | INFO | Mode queried
+2025-05-22T14:44:05.756547 | INFO | Mode queried
+2025-05-22T14:44:06.304114 | INFO | Reported actual TV state: off
+2025-05-22T14:44:26.657220 | INFO | Mode queried
+2025-05-22T14:45:06.990804 | INFO | Mode queried
+2025-05-22T14:46:20.454098 | INFO | Reported actual TV state: off
+2025-05-22T14:46:20.689279 | INFO | Mode queried
+2025-05-22T14:46:21.019651 | INFO | Reported actual TV state: off
+2025-05-22T14:46:41.507033 | INFO | Mode queried
+2025-05-22T14:47:31.649478 | INFO | Mode queried
+2025-05-22T14:48:23.984625 | INFO | Mode queried
+2025-05-22T14:48:54.130091 | INFO | Mode queried
+2025-05-22T14:49:44.457977 | INFO | Mode queried
+2025-05-22T14:56:10.752212 | INFO | Reported actual TV state: off
+2025-05-22T14:56:10.953031 | INFO | Mode queried
+2025-05-22T14:56:33.413024 | INFO | Mode queried
+2025-05-22T14:57:26.140047 | INFO | Mode queried
+2025-05-22T14:58:18.089166 | INFO | Mode queried
+2025-05-22T14:58:48.229352 | INFO | Mode queried
+2025-05-22T14:59:27.874336 | INFO | Full status requested
+2025-05-22T14:59:38.223639 | INFO | Mode queried
+2025-05-22T15:00:30.555794 | INFO | Mode queried
+2025-05-22T15:01:00.708180 | INFO | Mode queried
+2025-05-22T15:01:00.847121 | INFO | Schedule queried
+2025-05-22T15:01:50.950949 | INFO | Reported actual TV state: off
+2025-05-22T15:01:51.113240 | INFO | Mode queried
+2025-05-22T15:02:43.799431 | INFO | Mode queried
+2025-05-22T15:03:13.986987 | INFO | Mode queried
+2025-05-22T15:04:03.997382 | INFO | Mode queried
+2025-05-22T15:04:55.800906 | INFO | Mode queried
+2025-05-22T15:06:01.877284 | INFO | Reported actual TV state: off
+2025-05-22T15:06:02.030414 | INFO | Mode queried
+2025-05-22T15:06:02.359285 | INFO | Reported actual TV state: off
+2025-05-22T15:06:23.173317 | INFO | Mode queried
+2025-05-22T15:07:06.634122 | INFO | Mode queried
+2025-05-22T15:07:58.966491 | INFO | Mode queried
+2025-05-22T15:08:29.076483 | INFO | Mode queried
+2025-05-22T15:09:19.670522 | INFO | Mode queried
+2025-05-22T15:10:12.022544 | INFO | Mode queried
+2025-05-22T15:10:42.507579 | INFO | Mode queried
+2025-05-22T15:10:42.638930 | INFO | Schedule queried
+2025-05-22T15:11:32.546573 | INFO | Reported actual TV state: off
+2025-05-22T15:11:32.714277 | INFO | Mode queried
+2025-05-22T15:12:24.154995 | INFO | Mode queried
+2025-05-22T15:12:54.286491 | INFO | Mode queried
+2025-05-22T15:13:44.532201 | INFO | Mode queried
+2025-05-22T15:18:09.970826 | INFO | Mode queried
+2025-05-22T15:26:32.947043 | INFO | Reported actual TV state: off
+2025-05-22T15:26:34.148147 | INFO | Schedule queried
+2025-05-22T15:27:05.779722 | INFO | Mode queried
+2025-05-22T15:40:53.437976 | INFO | Reported actual TV state: off
+2025-05-22T15:40:53.624538 | INFO | Mode queried
+2025-05-22T15:40:54.252789 | INFO | Reported actual TV state: off
+2025-05-22T15:41:15.028224 | INFO | Mode queried
+2025-05-22T15:41:47.506409 | INFO | Reported actual TV state: off
+2025-05-22T15:41:47.693960 | INFO | Mode queried
+2025-05-22T15:41:48.195643 | INFO | Reported actual TV state: off
+2025-05-22T15:41:58.310712 | INFO | Mode queried
+2025-05-22T15:41:58.747004 | INFO | Reported actual TV state: off
+2025-05-22T15:42:40.977174 | INFO | Mode queried
+2025-05-22T15:43:11.588753 | INFO | Mode queried
+2025-05-22T15:44:01.253164 | INFO | Mode queried
+2025-05-22T16:01:49.598014 | INFO | Reported actual TV state: off
+2025-05-22T16:01:49.782546 | INFO | Mode queried
+2025-05-22T16:01:50.263699 | INFO | Reported actual TV state: off
+2025-05-22T16:02:12.253217 | INFO | Mode queried
+2025-05-22T16:03:06.380162 | INFO | Mode queried
+2025-05-22T16:04:10.532902 | INFO | Reported actual TV state: off
+2025-05-22T16:04:10.735752 | INFO | Mode queried
+2025-05-22T16:04:11.357083 | INFO | Reported actual TV state: off
+2025-05-22T16:04:34.000170 | INFO | Mode queried
+2025-05-22T16:04:44.660129 | INFO | Full status requested
+2025-05-22T16:05:24.828651 | INFO | TV state queried
+2025-05-22T16:05:26.316207 | INFO | Mode queried
+2025-05-22T16:06:08.388225 | INFO | TV state queried
+2025-05-22T16:06:12.921115 | INFO | Full status requested
+2025-05-22T16:06:19.826162 | INFO | Mode queried
+2025-05-22T16:06:50.101483 | INFO | Mode queried
+2025-05-22T16:11:20.771864 | INFO | Reported actual TV state: off
+2025-05-22T16:11:20.959581 | INFO | Mode queried
+2025-05-22T16:11:21.597094 | INFO | Reported actual TV state: off
+2025-05-22T16:11:32.157454 | INFO | Mode queried
+2025-05-22T16:11:32.872321 | INFO | Reported actual TV state: off
+2025-05-22T16:12:05.628558 | INFO | Reported actual TV state: off
+2025-05-22T16:12:06.069531 | INFO | Mode queried
+2025-05-22T16:12:06.455558 | INFO | Reported actual TV state: off
+2025-05-22T16:12:17.710887 | INFO | Full status requested
+2025-05-22T16:12:20.765864 | INFO | TV state queried
+2025-05-22T16:12:28.976103 | INFO | Reported actual TV state: off
+2025-05-22T16:12:29.168033 | INFO | Mode queried
+2025-05-22T16:12:32.947992 | INFO | Mode queried
+2025-05-22T16:12:46.590595 | INFO | TV state queried
+2025-05-22T16:12:59.790951 | INFO | Mode queried
+2025-05-22T16:13:30.614280 | INFO | Mode queried
+2025-05-22T16:13:30.955692 | INFO | TV commanded to turn off
+2025-05-22T16:14:00.456577 | INFO | Mode queried
+2025-05-22T16:14:08.806690 | INFO | Mode updated to server commands
+2025-05-22T16:14:16.629693 | INFO | Mode queried
+2025-05-22T16:14:30.917914 | INFO | Mode queried
+2025-05-22T16:14:31.035603 | INFO | TV state queried
+2025-05-22T16:14:48.157113 | INFO | TV commanded to turn off
+2025-05-22T16:14:56.308497 | INFO | Mode queried
+2025-05-22T16:14:56.541847 | INFO | TV state queried
+2025-05-22T16:15:19.687930 | INFO | Mode queried
+2025-05-22T16:15:19.852600 | INFO | TV state queried
+2025-05-22T16:15:35.328143 | INFO | Mode queried
+2025-05-22T16:15:35.434124 | INFO | TV state queried
+2025-05-22T16:16:13.654431 | INFO | Mode queried
+2025-05-22T16:16:13.795949 | INFO | TV state queried
+2025-05-22T16:16:30.464909 | INFO | TV state queried
+2025-05-22T16:16:37.069452 | INFO | Full status requested
+2025-05-22T16:16:43.825127 | INFO | Mode queried
+2025-05-22T16:16:43.984065 | INFO | TV state queried
+2025-05-22T16:16:44.072536 | INFO | Schedule queried
+2025-05-22T16:16:59.593042 | INFO | Mode queried
+2025-05-22T16:16:59.727050 | INFO | TV state queried
+2025-05-22T16:17:02.626882 | INFO | TV state queried
+2025-05-22T16:17:13.933027 | INFO | Reported actual TV state: off
+2025-05-22T16:17:15.367167 | INFO | Reported actual TV state: off
+2025-05-22T16:17:15.525852 | INFO | Mode queried
+2025-05-22T16:17:15.647113 | INFO | TV state queried
+2025-05-22T16:17:18.096116 | INFO | TV state queried
+2025-05-22T16:17:30.835970 | INFO | Mode queried
+2025-05-22T16:17:30.966499 | INFO | TV state queried
+2025-05-22T16:17:46.284504 | INFO | Mode queried
+2025-05-22T16:17:46.383498 | INFO | TV state queried
+2025-05-22T16:18:13.535980 | INFO | Mode queried
+2025-05-22T16:18:13.667737 | INFO | TV state queried
+2025-05-22T16:39:02.785594 | INFO | Reported actual TV state: off
+2025-05-22T16:39:02.964787 | INFO | Mode queried
+2025-05-22T16:39:03.098840 | INFO | TV state queried
+2025-05-22T16:39:03.303629 | INFO | Reported actual TV state: off
+2025-05-22T16:39:03.361336 | INFO | Mode queried
+2025-05-22T16:39:03.505693 | INFO | TV state queried
+2025-05-22T16:39:26.361971 | INFO | Mode queried
+2025-05-22T16:39:26.516185 | INFO | TV state queried
+2025-05-22T16:39:41.621925 | INFO | Mode queried
+2025-05-22T16:39:41.761307 | INFO | TV state queried
+2025-05-22T16:39:55.949973 | INFO | Reported actual TV state: off
+2025-05-22T16:39:56.857792 | INFO | Mode queried
+2025-05-22T16:39:57.064980 | INFO | TV state queried
+2025-05-22T16:40:12.622610 | INFO | Mode queried
+2025-05-22T16:40:12.730928 | INFO | TV state queried
+2025-05-22T16:40:27.886650 | INFO | Mode queried
+2025-05-22T16:40:28.029389 | INFO | TV state queried
+2025-05-22T16:40:43.194723 | INFO | Mode queried
+2025-05-22T16:40:43.348242 | INFO | TV state queried
+2025-05-22T16:40:58.522651 | INFO | Mode queried
+2025-05-22T16:40:58.631457 | INFO | TV state queried
+2025-05-22T16:41:14.067483 | INFO | Mode queried
+2025-05-22T16:41:14.188201 | INFO | TV state queried
+2025-05-22T16:41:17.670571 | INFO | TV state queried
+2025-05-22T16:41:29.286744 | INFO | Mode queried
+2025-05-22T16:41:29.453655 | INFO | TV state queried
+2025-05-22T16:41:56.143681 | INFO | Mode queried
+2025-05-22T16:41:56.322684 | INFO | TV state queried
+2025-05-22T16:42:00.586218 | INFO | TV commanded to turn on
+2025-05-22T16:42:11.417508 | INFO | Mode queried
+2025-05-22T16:42:11.555507 | INFO | TV state queried
+2025-05-22T16:42:39.053819 | INFO | Reported actual TV state: off
+2025-05-22T16:42:39.455647 | INFO | Mode queried
+2025-05-22T16:42:39.574038 | INFO | TV state queried
+2025-05-22T16:42:45.013360 | INFO | Mode updated to server commands
+2025-05-22T16:42:55.947775 | INFO | Mode queried
+2025-05-22T16:42:56.062727 | INFO | TV state queried
+2025-05-22T16:43:08.206882 | INFO | Mode queried
+2025-05-22T16:43:11.307503 | INFO | Mode queried
+2025-05-22T16:43:11.458211 | INFO | TV state queried
+2025-05-22T16:43:26.968273 | INFO | Mode queried
+2025-05-22T16:43:27.257494 | INFO | TV state queried
+2025-05-22T16:43:40.194738 | INFO | Schedule updated
+2025-05-22T16:43:42.847129 | INFO | Mode queried
+2025-05-22T16:43:42.969311 | INFO | TV state queried
+2025-05-22T16:43:55.556978 | INFO | Schedule queried
+2025-05-22T16:43:58.117755 | INFO | Mode queried
+2025-05-22T16:43:58.252885 | INFO | TV state queried
+2025-05-22T16:43:58.336992 | INFO | Schedule queried
+2025-05-22T16:44:13.741282 | INFO | Reported actual TV state: on
+2025-05-22T16:44:13.952962 | INFO | Mode queried
+2025-05-22T16:44:14.099898 | INFO | TV state queried
+2025-05-22T16:44:21.319188 | INFO | TV commanded to turn off
+2025-05-22T16:44:29.246011 | INFO | Mode queried
+2025-05-22T16:44:29.401943 | INFO | TV state queried
+2025-05-22T16:45:14.493942 | INFO | Mode queried
+2025-05-22T16:45:14.619559 | INFO | TV state queried
+2025-05-22T16:45:44.395675 | INFO | Mode queried
+2025-05-22T16:45:44.618870 | INFO | TV state queried
+2025-05-22T16:45:59.712803 | INFO | Mode queried
+2025-05-22T16:45:59.816607 | INFO | TV state queried
+2025-05-22T16:46:06.415341 | INFO | Mode updated to schedule
+2025-05-22T16:48:59.876167 | INFO | Mode queried
+2025-05-22T16:49:00.083222 | INFO | Schedule queried
+2025-05-22T16:49:47.182812 | INFO | Reported actual TV state: off
+2025-05-22T16:49:47.351434 | INFO | Mode queried
+2025-05-22T16:50:17.610226 | INFO | Mode queried
+2025-05-22T16:51:00.431149 | INFO | Mode queried
+2025-05-22T16:52:41.769201 | INFO | Reported actual TV state: off
+2025-05-22T16:52:41.959638 | INFO | Mode queried
+2025-05-22T16:52:45.173155 | INFO | Reported actual TV state: off
+2025-05-22T16:53:17.951087 | INFO | Mode queried
+2025-05-22T16:54:21.473497 | INFO | Reported actual TV state: off
+2025-05-22T16:54:21.719286 | INFO | Mode queried
+2025-05-22T16:54:22.751419 | INFO | Reported actual TV state: off
+2025-05-22T16:54:32.609231 | INFO | Mode queried
+2025-05-22T16:54:33.201958 | INFO | Reported actual TV state: off
+2025-05-22T16:55:49.582867 | INFO | Mode queried
+2025-05-22T16:56:25.460131 | INFO | Mode queried
+2025-05-22T16:56:44.242372 | INFO | TV is already on
+2025-05-22T16:56:56.753377 | INFO | Mode queried
+2025-05-22T16:57:24.685708 | INFO | Reported actual TV state: off
+2025-05-22T16:57:26.777427 | INFO | Mode queried
+2025-05-22T16:58:15.631862 | INFO | Reported actual TV state: off
+2025-05-22T16:58:15.995724 | INFO | Mode queried
+2025-05-22T16:58:17.162479 | INFO | Reported actual TV state: off
+2025-05-22T16:58:26.494282 | INFO | Mode queried
+2025-05-22T17:01:00.771897 | INFO | Full status requested
+2025-05-22T17:03:01.121994 | INFO | TV commanded to turn on
+2025-05-22T17:03:55.463461 | INFO | Reported actual TV state: off
+2025-05-22T17:03:55.674797 | INFO | Mode queried
+2025-05-22T17:03:58.969282 | INFO | Reported actual TV state: off
+2025-05-22T17:04:31.300689 | INFO | Reported actual TV state: off
+2025-05-22T17:04:31.745589 | INFO | Mode queried
+2025-05-22T17:04:33.655031 | INFO | TV commanded to turn off
+2025-05-22T17:05:02.386779 | INFO | Mode queried
+2025-05-22T17:05:32.683221 | INFO | Mode queried
+2025-05-22T17:05:46.647072 | INFO | Mode updated to server commands
+2025-05-22T17:06:02.929720 | INFO | Mode queried
+2025-05-22T17:06:03.128106 | INFO | TV state queried
+2025-05-22T17:06:18.619316 | INFO | Mode queried
+2025-05-22T17:06:18.725891 | INFO | TV state queried
+2025-05-22T17:06:33.978854 | INFO | Mode queried
+2025-05-22T17:06:34.117186 | INFO | TV state queried
+2025-05-22T17:07:00.922051 | INFO | Mode queried
+2025-05-22T17:07:01.073270 | INFO | TV state queried
+2025-05-22T17:07:27.430686 | INFO | Mode queried
+2025-05-22T17:07:27.586395 | INFO | TV state queried
+2025-05-22T17:07:43.090697 | INFO | Mode queried
+2025-05-22T17:07:43.286742 | INFO | TV state queried
+2025-05-22T17:08:00.368520 | INFO | Mode queried
+2025-05-22T17:08:00.486548 | INFO | TV state queried
+2025-05-22T17:08:15.768508 | INFO | Mode queried
+2025-05-22T17:08:15.945962 | INFO | TV state queried
+2025-05-22T17:09:01.019709 | INFO | Reported actual TV state: off
+2025-05-22T17:09:01.231477 | INFO | Mode queried
+2025-05-22T17:09:01.380474 | INFO | TV state queried
+2025-05-22T17:09:01.480600 | INFO | Schedule queried
+2025-05-22T17:09:17.002176 | INFO | Mode queried
+2025-05-22T17:09:17.113089 | INFO | TV state queried
+2025-05-22T17:09:32.362127 | INFO | Mode queried
+2025-05-22T17:09:32.505615 | INFO | TV state queried
+2025-05-22T17:09:39.132108 | INFO | TV commanded to turn off
+2025-05-22T17:09:48.019717 | INFO | Mode queried
+2025-05-22T17:09:48.270423 | INFO | TV state queried
+2025-05-22T17:10:21.418059 | INFO | Mode queried
+2025-05-22T17:10:21.540674 | INFO | TV state queried
+2025-05-22T17:10:49.573857 | INFO | Mode queried
+2025-05-22T17:10:49.713623 | INFO | TV state queried
+2025-05-22T17:11:04.849059 | INFO | Mode queried
+2025-05-22T17:11:04.954841 | INFO | TV state queried
+2025-05-22T17:11:21.317121 | INFO | Mode queried
+2025-05-22T17:11:21.423945 | INFO | TV state queried
+2025-05-22T17:11:42.366478 | INFO | Mode queried
+2025-05-22T17:11:42.519730 | INFO | TV state queried
+2025-05-22T17:11:58.069748 | INFO | Mode queried
+2025-05-22T17:11:58.329675 | INFO | TV state queried
+2025-05-22T17:12:22.558941 | INFO | TV is already on
+2025-05-22T17:12:34.954516 | INFO | Mode queried
+2025-05-22T17:12:35.079099 | INFO | TV state queried
+2025-05-22T17:13:03.400509 | INFO | Mode queried
+2025-05-22T17:13:03.633248 | INFO | TV state queried
+2025-05-22T17:13:18.781955 | INFO | Mode queried
+2025-05-22T17:13:18.878188 | INFO | TV state queried
+2025-05-22T17:13:34.856848 | INFO | Mode queried
+2025-05-22T17:13:34.962189 | INFO | TV state queried
+2025-05-22T17:13:55.901460 | INFO | Mode queried
+2025-05-22T17:13:56.052038 | INFO | TV state queried
+2025-05-22T17:13:56.668913 | INFO | Reported actual TV state: off
+2025-05-22T17:14:11.333185 | INFO | Reported actual TV state: off
+2025-05-22T17:14:11.699854 | INFO | Mode queried
+2025-05-22T17:14:11.815973 | INFO | TV state queried
+2025-05-22T17:14:11.891731 | INFO | Schedule queried
+2025-05-22T17:14:35.363901 | INFO | Mode queried
+2025-05-22T17:14:35.593737 | INFO | TV state queried
+2025-05-22T17:14:51.125541 | INFO | Mode queried
+2025-05-22T17:14:51.329960 | INFO | TV state queried
+2025-05-22T17:15:06.723137 | INFO | Mode queried
+2025-05-22T17:15:06.873055 | INFO | TV state queried
+2025-05-22T17:15:19.258811 | INFO | TV commanded to turn on
+2025-05-22T17:15:22.163784 | INFO | Mode queried
+2025-05-22T17:15:22.333984 | INFO | TV state queried
+2025-05-22T17:15:57.799971 | INFO | Mode queried
+2025-05-22T17:15:58.005579 | INFO | TV state queried
+2025-05-22T17:16:13.258608 | INFO | Mode queried
+2025-05-22T17:16:13.416755 | INFO | TV state queried
+2025-05-22T17:16:50.137788 | INFO | Mode queried
+2025-05-22T17:16:50.260710 | INFO | TV state queried
+2025-05-22T17:17:18.382557 | INFO | Mode queried
+2025-05-22T17:17:18.518684 | INFO | TV state queried
+2025-05-22T17:17:33.657680 | INFO | Mode queried
+2025-05-22T17:17:33.756567 | INFO | TV state queried
+2025-05-22T17:23:56.213152 | INFO | Reported actual TV state: off
+2025-05-22T17:23:56.381574 | INFO | Mode queried
+2025-05-22T17:23:56.523656 | INFO | TV state queried
+2025-05-22T17:23:57.145564 | INFO | Reported actual TV state: off
+2025-05-22T17:23:57.349997 | INFO | Mode queried
+2025-05-22T17:23:57.492411 | INFO | TV state queried
+2025-05-22T17:24:12.798447 | INFO | Mode queried
+2025-05-22T17:24:12.907592 | INFO | TV state queried
+2025-05-22T17:24:28.158349 | INFO | Mode queried
+2025-05-22T17:24:28.286740 | INFO | TV state queried
+2025-05-22T17:24:46.521432 | INFO | Mode queried
+2025-05-22T17:24:46.845275 | INFO | TV state queried
+2025-05-22T17:25:02.450835 | INFO | Mode queried
+2025-05-22T17:25:02.668253 | INFO | TV state queried
+2025-05-22T17:25:17.922809 | INFO | Mode queried
+2025-05-22T17:25:18.034446 | INFO | TV state queried
+2025-05-22T17:25:33.148448 | INFO | Mode queried
+2025-05-22T17:25:33.300330 | INFO | TV state queried
+2025-05-22T17:25:48.445386 | INFO | Mode queried
+2025-05-22T17:25:48.598322 | INFO | TV state queried
+2025-05-22T17:26:03.909055 | INFO | Mode queried
+2025-05-22T17:26:04.049184 | INFO | TV state queried
+2025-05-22T17:26:19.500311 | INFO | Mode queried
+2025-05-22T17:26:19.671983 | INFO | TV state queried
+2025-05-22T17:26:46.559593 | INFO | Mode queried
+2025-05-22T17:26:46.658524 | INFO | TV state queried
+2025-05-22T17:27:01.776743 | INFO | Mode queried
+2025-05-22T17:27:01.912502 | INFO | TV state queried
+2025-05-22T17:27:17.319043 | INFO | Mode queried
+2025-05-22T17:27:17.468854 | INFO | TV state queried
+2025-05-22T17:36:31.002284 | INFO | Reported actual TV state: off
+2025-05-22T17:36:31.405063 | INFO | Mode queried
+2025-05-22T17:36:31.517618 | INFO | TV state queried
+2025-05-22T17:36:32.229247 | INFO | Reported actual TV state: off
+2025-05-22T17:36:32.439426 | INFO | Mode queried
+2025-05-22T17:36:32.562302 | INFO | TV state queried
+2025-05-22T17:36:47.696818 | INFO | Mode queried
+2025-05-22T17:36:47.859736 | INFO | TV state queried
+2025-05-22T17:37:03.184742 | INFO | Mode queried
+2025-05-22T17:37:03.283514 | INFO | TV state queried
+2025-05-22T17:37:23.571450 | INFO | Mode queried
+2025-05-22T17:37:23.683188 | INFO | TV state queried
+2025-05-22T17:37:39.185552 | INFO | Mode queried
+2025-05-22T17:37:39.432779 | INFO | TV state queried
+2025-05-22T17:37:54.563299 | INFO | Mode queried
+2025-05-22T17:37:54.728298 | INFO | TV state queried
+2025-05-22T17:38:10.219462 | INFO | Mode queried
+2025-05-22T17:38:10.352276 | INFO | TV state queried
+2025-05-22T17:38:25.879755 | INFO | Mode queried
+2025-05-22T17:38:26.103424 | INFO | TV state queried
+2025-05-22T17:38:41.258098 | INFO | Mode queried
+2025-05-22T17:38:41.354202 | INFO | TV state queried
+2025-05-22T17:38:56.803668 | INFO | Mode queried
+2025-05-22T17:38:57.010833 | INFO | TV state queried
+2025-05-22T17:39:39.738010 | INFO | Reported actual TV state: off
+2025-05-22T17:39:40.105025 | INFO | Mode queried
+2025-05-22T17:39:40.199406 | INFO | TV state queried
+2025-05-22T17:39:40.955347 | INFO | Reported actual TV state: off
+2025-05-22T17:39:41.160438 | INFO | Mode queried
+2025-05-22T17:39:41.270333 | INFO | TV state queried
+2025-05-22T17:39:56.422685 | INFO | Mode queried
+2025-05-22T17:39:56.568023 | INFO | TV state queried
+2025-05-22T17:41:31.138618 | INFO | Reported actual TV state: off
+2025-05-22T17:41:31.507285 | INFO | Mode queried
+2025-05-22T17:41:31.619406 | INFO | TV state queried
+2025-05-22T17:41:32.362784 | INFO | Reported actual TV state: off
+2025-05-22T17:41:32.699369 | INFO | Mode queried
+2025-05-22T17:41:32.847444 | INFO | TV state queried
+2025-05-22T17:41:48.028586 | INFO | Mode queried
+2025-05-22T17:41:48.186107 | INFO | TV state queried
+2025-05-22T17:42:12.822453 | INFO | Mode queried
+2025-05-22T17:42:12.921480 | INFO | TV state queried
+2025-05-22T17:42:28.363804 | INFO | Mode queried
+2025-05-22T17:42:28.598000 | INFO | TV state queried
+2025-05-22T17:42:44.132625 | INFO | Mode queried
+2025-05-22T17:42:44.379332 | INFO | TV state queried
+2025-05-22T17:42:59.502652 | INFO | Mode queried
+2025-05-22T17:42:59.611911 | INFO | TV state queried
+2025-05-22T17:43:15.060179 | INFO | Mode queried
+2025-05-22T17:43:15.288867 | INFO | TV state queried
+2025-05-22T17:43:30.829352 | INFO | Mode queried
+2025-05-22T17:43:31.082560 | INFO | TV state queried
+2025-05-22T17:43:46.503249 | INFO | Mode queried
+2025-05-22T17:43:46.621986 | INFO | TV state queried

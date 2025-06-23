@@ -1,0 +1,115 @@
+2025-04-21 16:53:31.247 | INFO     | Starting ESP32 API Server
+2025-04-21 16:54:02.996 | INFO     | Incoming: GET /esp/10061CB5BB2410061C/version
+2025-04-21 16:54:02.996 | DEBUG    | Headers: {'Host': '192.168.1.9:5000', 'User-Agent': 'ESP32HTTPClient', 'Connection': 'keep-alive', 'Accept-Encoding': 'identity;q=1,chunked;q=0.1,*;q=0'}
+2025-04-21 16:54:02.996 | WARNING  | Error 400: Invalid device ID format
+2025-04-21 16:54:02.996 | INFO     | Outgoing: 400 BAD REQUEST
+2025-04-21 16:54:02.996 | DEBUG    | Response: {'error': 'Invalid device ID format', 'success': False, 'timestamp': '2025-04-21T15:54:02.996714Z'}
+2025-04-21 16:54:02.997 | INFO     | 192.168.1.4 - - [21/Apr/2025 16:54:02] "[31m[1mGET /esp/10061CB5BB2410061C/version HTTP/1.1[0m" 400 -
+2025-04-21 16:54:03.113 | INFO     | Incoming: GET /esp/10061CB5BB2410061C/schedule
+2025-04-21 16:54:03.114 | DEBUG    | Headers: {'Host': '192.168.1.9:5000', 'User-Agent': 'ESP32HTTPClient', 'Connection': 'keep-alive', 'Accept-Encoding': 'identity;q=1,chunked;q=0.1,*;q=0'}
+2025-04-21 16:54:03.114 | INFO     | 10061CB5BB2410061C | Schedule request
+2025-04-21 16:54:03.115 | INFO     | Outgoing: 200 OK
+2025-04-21 16:54:03.115 | DEBUG    | Response: {'data': {'days': ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], 'end': '20:00', 'start': '08:00'}, 'success': True, 'timestamp': '2025-04-21T15:54:03.114917Z'}
+2025-04-21 16:54:03.115 | INFO     | 192.168.1.4 - - [21/Apr/2025 16:54:03] "GET /esp/10061CB5BB2410061C/schedule HTTP/1.1" 200 -
+2025-04-21 16:54:03.301 | INFO     | Incoming: GET /esp/10061CB5BB2410061C/status
+2025-04-21 16:54:03.301 | DEBUG    | Headers: {'Host': '192.168.1.9:5000', 'User-Agent': 'ESP32HTTPClient', 'Connection': 'keep-alive', 'Accept-Encoding': 'identity;q=1,chunked;q=0.1,*;q=0'}
+2025-04-21 16:54:03.302 | INFO     | 10061CB5BB2410061C | Status check
+2025-04-21 16:54:03.302 | INFO     | Outgoing: 200 OK
+2025-04-21 16:54:03.302 | DEBUG    | Response: {'data': {'last_update': '2025-04-21T15:54:03.302290Z', 'status': 'on'}, 'success': True, 'timestamp': '2025-04-21T15:54:03.302298Z'}
+2025-04-21 16:54:03.302 | INFO     | 192.168.1.4 - - [21/Apr/2025 16:54:03] "GET /esp/10061CB5BB2410061C/status HTTP/1.1" 200 -
+2025-04-21 16:54:03.505 | INFO     | Incoming: POST /esp/10061CB5BB2410061C/tv
+2025-04-21 16:54:03.506 | DEBUG    | Headers: {'Host': '192.168.1.9:5000', 'User-Agent': 'ESP32HTTPClient', 'Connection': 'keep-alive', 'Accept-Encoding': 'identity;q=1,chunked;q=0.1,*;q=0', 'Content-Type': 'application/json', 'Content-Length': '15'}
+2025-04-21 16:54:03.582 | DEBUG    | Body: {"status":"ON"}
+2025-04-21 16:54:03.583 | INFO     | 10061CB5BB2410061C | TV control: on
+2025-04-21 16:54:03.583 | INFO     | Outgoing: 200 OK
+2025-04-21 16:54:03.583 | DEBUG    | Response: {'data': {'confirmed': True, 'status': 'on'}, 'success': True, 'timestamp': '2025-04-21T15:54:03.583656Z'}
+2025-04-21 16:54:03.584 | INFO     | 192.168.1.4 - - [21/Apr/2025 16:54:03] "POST /esp/10061CB5BB2410061C/tv HTTP/1.1" 200 -
+2025-04-21 16:54:03.651 | INFO     | Incoming: POST /esp/10061CB5BB2410061C/log
+2025-04-21 16:54:03.651 | DEBUG    | Headers: {'Host': '192.168.1.9:5000', 'User-Agent': 'ESP32HTTPClient', 'Connection': 'keep-alive', 'Accept-Encoding': 'identity;q=1,chunked;q=0.1,*;q=0', 'Content-Type': 'application/json', 'Content-Length': '64'}
+2025-04-21 16:54:03.663 | DEBUG    | Body: {"data":[{"timestamp":"2025-04-20T14:30:00Z","log":"Test log"}]}
+2025-04-21 16:54:03.664 | INFO     | 10061CB5BB2410061C | Log received: 2025-04-20T14:30:00Z | Test log
+2025-04-21 16:54:03.664 | INFO     | Outgoing: 200 OK
+2025-04-21 16:54:03.664 | DEBUG    | Response: {'data': {'log_file': 'device_logs/10061CB5BB2410061C.log', 'received_entries': 1}, 'success': True, 'timestamp': '2025-04-21T15:54:03.664175Z'}
+2025-04-21 16:54:03.664 | INFO     | 192.168.1.4 - - [21/Apr/2025 16:54:03] "POST /esp/10061CB5BB2410061C/log HTTP/1.1" 200 -
+2025-04-21 16:54:59.823 | INFO     | Incoming: GET /esp/10061CB5BB2410061C/version
+2025-04-21 16:54:59.823 | DEBUG    | Headers: {'Host': '192.168.1.9:5000', 'User-Agent': 'ESP32HTTPClient', 'Connection': 'keep-alive', 'Accept-Encoding': 'identity;q=1,chunked;q=0.1,*;q=0'}
+2025-04-21 16:54:59.824 | WARNING  | Error 400: Invalid device ID format
+2025-04-21 16:54:59.824 | INFO     | Outgoing: 400 BAD REQUEST
+2025-04-21 16:54:59.824 | DEBUG    | Response: {'error': 'Invalid device ID format', 'success': False, 'timestamp': '2025-04-21T15:54:59.824253Z'}
+2025-04-21 16:54:59.824 | INFO     | 192.168.1.4 - - [21/Apr/2025 16:54:59] "[31m[1mGET /esp/10061CB5BB2410061C/version HTTP/1.1[0m" 400 -
+2025-04-21 16:55:59.780 | INFO     | Incoming: GET /esp/10061CB5BB2410061C/version
+2025-04-21 16:55:59.780 | DEBUG    | Headers: {'Host': '192.168.1.9:5000', 'User-Agent': 'ESP32HTTPClient', 'Connection': 'keep-alive', 'Accept-Encoding': 'identity;q=1,chunked;q=0.1,*;q=0'}
+2025-04-21 16:55:59.781 | WARNING  | Error 400: Invalid device ID format
+2025-04-21 16:55:59.781 | INFO     | Outgoing: 400 BAD REQUEST
+2025-04-21 16:55:59.781 | DEBUG    | Response: {'error': 'Invalid device ID format', 'success': False, 'timestamp': '2025-04-21T15:55:59.781317Z'}
+2025-04-21 16:55:59.781 | INFO     | 192.168.1.4 - - [21/Apr/2025 16:55:59] "[31m[1mGET /esp/10061CB5BB2410061C/version HTTP/1.1[0m" 400 -
+2025-04-21 16:56:37.887 | INFO     | Incoming: GET /esp/10061CB5BB2410061C/version
+2025-04-21 16:56:37.887 | DEBUG    | Headers: {'Host': 'localhost:5000', 'User-Agent': 'curl/7.81.0', 'Accept': '*/*'}
+2025-04-21 16:56:37.887 | WARNING  | Error 400: Invalid device ID format
+2025-04-21 16:56:37.887 | INFO     | Outgoing: 400 BAD REQUEST
+2025-04-21 16:56:37.887 | DEBUG    | Response: {'error': 'Invalid device ID format', 'success': False, 'timestamp': '2025-04-21T15:56:37.887522Z'}
+2025-04-21 16:56:37.888 | INFO     | 127.0.0.1 - - [21/Apr/2025 16:56:37] "[31m[1mGET /esp/10061CB5BB2410061C/version HTTP/1.1[0m" 400 -
+2025-04-21 16:56:59.839 | INFO     | Incoming: GET /esp/10061CB5BB2410061C/version
+2025-04-21 16:56:59.839 | DEBUG    | Headers: {'Host': '192.168.1.9:5000', 'User-Agent': 'ESP32HTTPClient', 'Connection': 'keep-alive', 'Accept-Encoding': 'identity;q=1,chunked;q=0.1,*;q=0'}
+2025-04-21 16:56:59.839 | WARNING  | Error 400: Invalid device ID format
+2025-04-21 16:56:59.839 | INFO     | Outgoing: 400 BAD REQUEST
+2025-04-21 16:56:59.839 | DEBUG    | Response: {'error': 'Invalid device ID format', 'success': False, 'timestamp': '2025-04-21T15:56:59.839661Z'}
+2025-04-21 16:56:59.840 | INFO     | 192.168.1.4 - - [21/Apr/2025 16:56:59] "[31m[1mGET /esp/10061CB5BB2410061C/version HTTP/1.1[0m" 400 -
+2025-04-21 16:57:02.242 | INFO     | Incoming: GET /esp/10061CB5BB2410061C/version
+2025-04-21 16:57:02.243 | DEBUG    | Headers: {'Host': 'localhost:5000', 'User-Agent': 'curl/7.81.0', 'Accept': '*/*'}
+2025-04-21 16:57:02.243 | WARNING  | Error 400: Invalid device ID format
+2025-04-21 16:57:02.243 | INFO     | Outgoing: 400 BAD REQUEST
+2025-04-21 16:57:02.243 | DEBUG    | Response: {'error': 'Invalid device ID format', 'success': False, 'timestamp': '2025-04-21T15:57:02.243408Z'}
+2025-04-21 16:57:02.243 | INFO     | 127.0.0.1 - - [21/Apr/2025 16:57:02] "[31m[1mGET /esp/10061CB5BB2410061C/version HTTP/1.1[0m" 400 -
+2025-04-21 16:57:12.781 | INFO     | Starting ESP32 API Server
+2025-04-21 16:57:12.783 | INFO     | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-04-21 16:57:12.783 | INFO     | [33mPress CTRL+C to quit[0m
+2025-04-21 16:57:59.884 | INFO     | Incoming: GET /esp/10061CB5BB2410061C/version
+2025-04-21 16:57:59.884 | DEBUG    | Headers: {'Host': '192.168.1.9:5000', 'User-Agent': 'ESP32HTTPClient', 'Connection': 'keep-alive', 'Accept-Encoding': 'identity;q=1,chunked;q=0.1,*;q=0'}
+2025-04-21 16:57:59.885 | INFO     | 10061CB5BB2410061C | Version check
+2025-04-21 16:57:59.885 | INFO     | Outgoing: 200 OK
+2025-04-21 16:57:59.885 | DEBUG    | Response: {'data': {'ota_available': False, 'version': '1.2.1'}, 'success': True, 'timestamp': '2025-04-21T15:57:59.885146Z'}
+2025-04-21 16:57:59.885 | INFO     | 192.168.1.4 - - [21/Apr/2025 16:57:59] "GET /esp/10061CB5BB2410061C/version HTTP/1.1" 200 -
+2025-04-21 16:58:02.642 | INFO     | Incoming: GET /esp/10061CB5BB2410061C/version
+2025-04-21 16:58:02.643 | DEBUG    | Headers: {'Host': 'localhost:5000', 'User-Agent': 'curl/7.81.0', 'Accept': '*/*'}
+2025-04-21 16:58:02.643 | INFO     | 10061CB5BB2410061C | Version check
+2025-04-21 16:58:02.643 | INFO     | Outgoing: 200 OK
+2025-04-21 16:58:02.643 | DEBUG    | Response: {'data': {'ota_available': False, 'version': '1.2.1'}, 'success': True, 'timestamp': '2025-04-21T15:58:02.643241Z'}
+2025-04-21 16:58:02.643 | INFO     | 127.0.0.1 - - [21/Apr/2025 16:58:02] "GET /esp/10061CB5BB2410061C/version HTTP/1.1" 200 -
+2025-04-22 15:36:32 | INFO     | Starting ESP32 OTA Management Server
+2025-04-23 11:01:48 | INFO     | Starting ESP32 OTA Management Server
+2025-04-23 11:02:16 | INFO     | Starting ESP32 OTA Management Server
+2025-04-23 11:03:19 | INFO     | Starting ESP32 OTA Management Server
+2025-04-23 11:04:54 | INFO     | Request: GET /esp/1234567890ABCDEF12345678/version | Client: 192.168.10.198 | Device: 1234567890ABCDEF12345678
+2025-04-23 11:04:54 | ERROR    | Failed to read device DB: [Errno 2] No such file or directory: 'devices.json'
+2025-04-23 11:04:54 | ERROR    | Firmware not found for 1234567890ABCDEF12345678
+2025-04-23 11:04:54 | INFO     | Response: 404 NOT FOUND | Size: 51 bytes
+2025-04-23 11:05:07 | INFO     | Request: GET /esp/1234567890ABCDEF12345678/version | Client: 192.168.10.198 | Device: 1234567890ABCDEF12345678
+2025-04-23 11:05:07 | ERROR    | Failed to read device DB: [Errno 2] No such file or directory: 'devices.json'
+2025-04-23 11:05:07 | ERROR    | Firmware not found for 1234567890ABCDEF12345678
+2025-04-23 11:05:07 | INFO     | Response: 404 NOT FOUND | Size: 51 bytes
+2025-04-23 11:06:23 | INFO     | Starting ESP32 OTA Management Server
+2025-04-23 11:06:24 | INFO     | Request: POST /esp/1234567890ABCDEF12345678/log | Client: 192.168.10.198 | Device: 1234567890ABCDEF12345678
+2025-04-23 11:06:24 | INFO     | Received 16 logs from 1234567890ABCDEF12345678
+2025-04-23 11:06:24 | INFO     | Response: 200 OK | Size: 63 bytes
+2025-04-23 11:06:32 | INFO     | Request: GET /esp/1234567890ABCDEF12345678/version | Client: 192.168.10.198 | Device: 1234567890ABCDEF12345678
+2025-04-23 11:06:32 | ERROR    | Failed to read device DB: [Errno 2] No such file or directory: 'devices.json'
+2025-04-23 11:06:32 | ERROR    | Firmware not found for 1234567890ABCDEF12345678
+2025-04-23 11:06:32 | INFO     | Response: 404 NOT FOUND | Size: 51 bytes
+2025-04-23 11:07:31 | INFO     | Request: POST /esp/1234567890ABCDEF12345678/log | Client: 192.168.10.198 | Device: 1234567890ABCDEF12345678
+2025-04-23 11:07:31 | INFO     | Received 2 logs from 1234567890ABCDEF12345678
+2025-04-23 11:07:31 | INFO     | Response: 200 OK | Size: 63 bytes
+2025-04-23 11:08:49 | INFO     | Starting ESP32 OTA Management Server
+2025-04-23 11:10:38 | INFO     | Request: GET /esp/1234567890ABCDEF12345678/version | Client: 192.168.10.198 | Device: 1234567890ABCDEF12345678
+2025-04-23 11:10:38 | ERROR    | Failed to read device DB: [Errno 2] No such file or directory: 'devices.json'
+2025-04-23 11:10:38 | ERROR    | Firmware not found for 1234567890ABCDEF12345678
+2025-04-23 11:10:38 | INFO     | Response: 404 NOT FOUND | Size: 51 bytes
+2025-04-23 11:11:23 | INFO     | Request: POST /esp/1234567890ABCDEF12345678/log | Client: 192.168.10.44 | Device: 1234567890ABCDEF12345678
+2025-04-23 11:11:23 | WARNING  | Invalid content type for logs
+2025-04-23 11:11:23 | INFO     | Response: 400 BAD REQUEST | Size: 50 bytes
+2025-04-23 11:11:36 | INFO     | Request: POST /esp/1234567890ABCDEF12345678/log | Client: 192.168.10.198 | Device: 1234567890ABCDEF12345678
+2025-04-23 11:11:36 | INFO     | Received 2 logs from 1234567890ABCDEF12345678
+2025-04-23 11:11:36 | INFO     | Response: 200 OK | Size: 63 bytes

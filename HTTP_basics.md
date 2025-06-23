@@ -76,9 +76,9 @@ curl -X POST http://127.0.0.1:5000/post-data -H "Content-Type: application/json"
 ```
 - Summary Table:
 
-| **HTTP Method** | **Purpose**          | **Data Location**            | **Use Case**                   |
+| **HTTP Method**  | **Purpose**          | **Data Location**            | **Use Case**                    |
 |------------------|----------------------|------------------------------|---------------------------------|
-| GET              | Retrieve data        | Query parameters in the URL  | Fetching data, loading pages   |
+| GET              | Retrieve data        | Query parameters in the URL  | Fetching data, loading pages    |
 | POST             | Send data to server  | Request body                 | Submitting forms, creating data |
 
 
