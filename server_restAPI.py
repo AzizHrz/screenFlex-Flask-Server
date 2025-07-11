@@ -182,7 +182,7 @@ def save_device_info(device_id: str, update_data: dict) -> bool:
     return save_devices(devices)
 
 def validate_time_format(time_str: str) -> bool:
-    """Validate time format (HH:MM)"""
+    """Validate HH:MM format"""
     try:
         datetime.strptime(time_str, "%H:%M")
         return True
@@ -564,81 +564,85 @@ def report_tv_state(device_id: str):
     })
 
 @app.route('/esp/<string:device_id>/schedule', methods=['GET', 'POST'])
+
 def device_schedule(device_id: str):
-    """
-    Schedule Management Endpoint
-    ---
-    GET: Returns current schedule
-    POST: Updates schedule (requires all schedule fields)
-    """
-    if not validate_device_id(device_id):
-        return jsonify({"success": False, "error": "Invalid device ID"}), 400
-    
-    device_info = get_device_info(device_id)
-    
-    if request.method == 'GET':
-        log_device_action(device_id, "Schedule queried")
-        return jsonify({
-            "success": True,
-            "data": {
-                "schedule": device_info["schedule"],
-                "last_updated": device_info.get("schedule_updated")
-            }
-        })
-    
-    # POST method handling
-    data = request.get_json()
-    if not data:
-        return jsonify({"success": False, "error": "Invalid data"}), 400
-    
-    # Validate required fields
-    required_fields = ['active', 'timezone', 'weekdays', 'start_time', 'end_time']
-    if not all(field in data for field in required_fields):
-        return jsonify({
-            "success": False,
-            "error": "Missing required fields",
-            "required": required_fields
-        }), 400
-    
-    # Validate time format
-    if not validate_time_format(data['start_time']):
-        return jsonify({
-            "success": False,
-            "error": "Invalid start_time format (HH:MM)"
-        }), 400
-        
-    if not validate_time_format(data['end_time']):
-        return jsonify({
-            "success": False,
-            "error": "Invalid end_time format (HH:MM)"
-        }), 400
-    
+     """
+     Schedule Management Endpoint
+     ---
+     GET: Returns current schedule
+     POST: Updates schedule (requires all schedule fields)
+     """
+     if not validate_device_id(device_id):
+         return jsonify({"success": False, "error": "Invalid device ID"}), 400
+     
+     device_info = get_device_info(device_id)
+     
+     if request.method == 'GET':
+         log_device_action(device_id, "Schedule queried")
+         return jsonify({
+             "success": True,
+             "data": {
+                 "schedule": device_info["schedule"],
+                 "last_updated": device_info.get("schedule_updated")
+             }
+         })
+     
+     # POST method handling
+     data = request.get_json()
+     if not data:
+         return jsonify({"success": False, "error": "Invalid data"}), 400
+     
+     # Validate required fields
+     required_fields = ['active', 'timezone', 'weekdays', 'start_time', 'end_time']
+     if not all(field in data for field in required_fields):
+         return jsonify({
+             "success": False,
+             "error": "Missing required fields",
+             "required": required_fields
+         }), 400
+     
+     # Validate time format
+     if not validate_time_format(data['start_time']):
+         return jsonify({
+             "success": False,
+             "error": "Invalid start_time format (HH:MM)"
+         }), 400
+         
+     if not validate_time_format(data['end_time']):
+         return jsonify({
+             "success": False,
+             "error": "Invalid end_time format (HH:MM)"
+         }), 400
+     
     # Update schedule
-    update_data = {
-        "schedule": {
-            "active": data["active"],
-            "timezone": data["timezone"],
-            "weekdays": data["weekdays"],
-            "start_time": data["start_time"],
-            "end_time": data["end_time"]
-        },
-        "schedule_updated": datetime.utcnow().isoformat()
-    }
-    
-    if not save_device_info(device_id, update_data):
-        return jsonify({"success": False, "error": "Database error"}), 500
-    
-    log_device_action(device_id, "Schedule updated")
-    
-    return jsonify({
-        "success": True,
-        "message": "Schedule updated successfully",
-        "should_update": True,
-        "data": {
-            "schedule": update_data["schedule"],
-            "last_updated": update_data["schedule_updated"]
-        }
-    })
+     update_data = {
+         "schedule": {
+             "active": data["active"],
+             "timezone": data["timezone"],
+             "weekdays": data["weekdays"],
+             "start_time": data["start_time"],
+             "end_time": data["end_time"]
+         },
+         "schedule_updated": datetime.utcnow().isoformat()
+     }
+     
+     if not save_device_info(device_id, update_data):
+         return jsonify({"success": False, "error": "Database error"}), 500
+     
+     log_device_action(device_id, "Schedule updated")
+     
+     return jsonify({
+         "success": True,
+         "message": "Schedule updated successfully",
+         "should_update": True,
+         "data": {
+             "schedule": update_data["schedule"],
+             "last_updated": update_data["schedule_updated"]
+         }
+     })
+
+
+
 
 @app.route('/esp/<string:device_id>/status', methods=['GET'])
 def device_status(device_id: str):
