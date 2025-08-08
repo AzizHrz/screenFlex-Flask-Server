@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Configuration
 CONFIG = {
     "FIRMWARE_DIR": "firmware",
-    "CURRENT_FIRMWARE_VERSION": "1.2.0"
+    "CURRENT_FIRMWARE_VERSION": "3.2.0"
 }
 
 # Ensure firmware directory exists
@@ -16,7 +16,9 @@ os.makedirs(CONFIG['FIRMWARE_DIR'], exist_ok=True)
 DEVICE_ID = "1"
 
 CONFIG = {
-    "CURRENT_FIRMWARE_VERSION": "none",
+    "FIRMWARE_DIR": "firmware",
+
+    "CURRENT_FIRMWARE_VERSION": "3.2.0",
     "current_mode": "schedule",
     "tv_state": "off",
     "schedule": {
@@ -110,7 +112,7 @@ def get_firmware_version():
 @app.route('/update', methods=['GET'])
 def handle_ota_update():
     """Handle OTA firmware download request from ESP32"""
-    firmware_file = "firmware.bin"
+    firmware_file = "firmware_3.2.0.bin"
     firmware_path = os.path.join(CONFIG['FIRMWARE_DIR'], firmware_file)
     
     if not os.path.exists(firmware_path):
